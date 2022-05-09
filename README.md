@@ -55,5 +55,6 @@ CUDA_VISIBLE_DEVICES=0 python eval.py -c ./exp/exp_gt_f81.bin # using 81 frames 
 ```shell
 CUDA_VISIBLE_DEVICES=0 python eval.py -c ./exp/exp_gt_f243.bin # using 243 frames as input
 ```
-
+## Acknowledgement
+ Part of the code is borrowed from [Poseformer](https://github.com/zczcwh/PoseFormer) and [VideoPose3D](https://github.com/facebookresearch/VideoPose3D). We thank the authors for releasing their codes.
 
