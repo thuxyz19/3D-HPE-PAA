@@ -1,0 +1,10 @@
+seed: 666
+dataset: "h36m"
+keypoints: "cpn_ft_h36m_dbb"
+subjects_train: ['S1', 'S5', 'S6', 'S7', 'S8']
+subjects_test: ['S9', 'S11']
+number_of_frames: 243
+number_of_joints: 17
+downsample: 1
+checkpoint: "./checkpoint/cpn_f243.bin"
+swin_pos: False
