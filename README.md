@@ -41,19 +41,19 @@ The trained checkpoints can be downloaded from https://cloud.tsinghua.edu.cn/d/f
 To conduct evaluation using the CPN inputs, you can run the following commands:
 
 ```shell
-CUDA_VISIBLE_DEVICES=0 python eval.py -c ./exp/exp_cpn_f81.bin # using 81 frames as input
+CUDA_VISIBLE_DEVICES=0 python eval.py -c ./exp/exp_cpn_f81.yaml # using 81 frames as input
 ```
 ```shell
-CUDA_VISIBLE_DEVICES=0 python eval.py -c ./exp/exp_cpn_f243.bin # using 243 frames as input
+CUDA_VISIBLE_DEVICES=0 python eval.py -c ./exp/exp_cpn_f243.yaml # using 243 frames as input
 ```
 
 Similarly, to evaluate using the GT inputs, you can run the following commands:
 
 ```shell
-CUDA_VISIBLE_DEVICES=0 python eval.py -c ./exp/exp_gt_f81.bin # using 81 frames as input
+CUDA_VISIBLE_DEVICES=0 python eval.py -c ./exp/exp_gt_f81.yaml # using 81 frames as input
 ```
 ```shell
-CUDA_VISIBLE_DEVICES=0 python eval.py -c ./exp/exp_gt_f243.bin # using 243 frames as input
+CUDA_VISIBLE_DEVICES=0 python eval.py -c ./exp/exp_gt_f243.yaml # using 243 frames as input
 ```
 ## Acknowledgement
  Part of the code is borrowed from [Poseformer](https://github.com/zczcwh/PoseFormer) and [VideoPose3D](https://github.com/facebookresearch/VideoPose3D). We thank the authors for releasing their codes.
